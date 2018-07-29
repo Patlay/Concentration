@@ -74,6 +74,7 @@ class ViewController: UIViewController {
         flipCountLabel.text = "Flips: \(game.fliCount)"
     }
     typealias Theme = (emojiChoicees:[String], backgroundColor: UIColor, cardBackColor: UIColor)
+    // 
     var emojiChoicees =  ["👻", "🎃", "💀", "😈", "👽", "🤖", "👺", "👓", "💼", "👒", "👗", "🐰"]
     private var emojiThemes: [String: Theme] = [
         "Halloween": (["👻", "🎃", "💀", "😈", "👺", "🦇", "🕷", "🕸", "🙀", "👽"], #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)),
